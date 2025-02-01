@@ -49,7 +49,7 @@ export default function About() {
           <div className="relative">
             <img
               /* TODO:- Add a photo of Ravi Mama Along with fw family*/
-              src="assets\team\ferries_wheels_films_team.png"
+              src="\team\ferries_wheels_films_team.png"
               alt="Team at work"
               className="rounded-lg shadow-2xl"
             />

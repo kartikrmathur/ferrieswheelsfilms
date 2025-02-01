@@ -3,35 +3,35 @@ import React from "react";
 const clients = [
   {
     name: "VIVO",
-    logo: "assets/client_logo/vivo_logo.png",
+    logo: "/client_logo/vivo_logo.png",
   },
   {
     name: "Pepsi",
-    logo: "assets/client_logo/pepsi_logo.png",
+    logo: "/client_logo/pepsi_logo.png",
   },
   {
     name: "Volkswagen",
-    logo: "assets/client_logo/VW_Logo.png",
+    logo: "/client_logo/VW_Logo.png",
   },
   {
     name: "Colgate",
-    logo: "assets/client_logo/Colgate_logo.png",
+    logo: "/client_logo/Colgate_logo.png",
   },
   {
     name: "Samsung",
-    logo: "assets/client_logo/Samsung_logo.png",
+    logo: "/client_logo/Samsung_logo.png",
   },
   {
     name: "Garnier",
-    logo: "assets/client_logo/Garnier_logo.png",
+    logo: "/client_logo/Garnier_logo.png",
   },
   {
     name: "HDFC Bank",
-    logo: "assets/client_logo/hdfc_bank_logo.png",
+    logo: "/client_logo/hdfc_bank_logo.png",
   },
   {
     name: "P&G",
-    logo: "assets/client_logo/p&g_logo.png",
+    logo: "/client_logo/p&g_logo.png",
   },
 ];
 
