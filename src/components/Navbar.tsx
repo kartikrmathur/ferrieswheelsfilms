@@ -28,31 +28,18 @@ export default function Navbar() {
             </div>
 
             <div className="hidden md:flex items-center space-x-8">
-              {/* <a href="#Glimpse" className="hover-slide-text font-medium">
-                Glimpse
-              </a> */}
               <a href="#Highlights" className="hover-slide-text font-medium">
                 Highlights
               </a>
-              {/* <a href="#featured" className="hover-slide-text font-medium">
-                Featured
-              </a> */}
-              {/* <a href="#collections" className="hover-slide-text font-medium">
-                Collections
-              </a> */}
               <a href="#services" className="hover-slide-text font-medium">
                 Services
               </a>
-              {/* <a href="#portfolio" className="hover-slide-text font-medium">
-                Work
-              </a> */}
               <a href="#about" className="hover-slide-text font-medium">
                 About
               </a>
               <a href="#Our Client" className="hover-slide-text font-medium">
                 Clients
               </a>
-
               <a href="#contact" className="hover-slide-text font-medium">
                 Contact
               </a>
@@ -73,22 +60,39 @@ export default function Navbar() {
       {isOpen && (
         <div className="fixed inset-0 z-40 bg-white pt-16">
           <div className="p-4 space-y-6">
-            <a href="#Highlights" className="block text-2xl font-bold">
+            <a
+              href="#Highlights"
+              className="block text-2xl font-bold"
+              onClick={() => setIsOpen(false)}
+            >
               Highlights
             </a>
-            <a href="#services" className="block text-2xl font-bold">
+            <a
+              href="#services"
+              className="block text-2xl font-bold"
+              onClick={() => setIsOpen(false)}
+            >
               Services
             </a>
-            {/* <a href="#featured" className="block text-2xl font-bold">
-              Featured
-            </a> */}
-            <a href="#about" className="block text-2xl font-bold">
+            <a
+              href="#about"
+              className="block text-2xl font-bold"
+              onClick={() => setIsOpen(false)}
+            >
               About
             </a>
-            <a href="#Our Client" className="block text-2xl font-bold">
+            <a
+              href="#Our Client"
+              className="block text-2xl font-bold"
+              onClick={() => setIsOpen(false)}
+            >
               Clients
             </a>
-            <a href="#contact" className="block text-2xl font-bold">
+            <a
+              href="#contact"
+              className="block text-2xl font-bold"
+              onClick={() => setIsOpen(false)}
+            >
               Contact
             </a>
           </div>
