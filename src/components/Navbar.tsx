@@ -88,10 +88,7 @@ export default function Navbar() {
             <a href="#Our Client" className="hover-slide-text font-medium">
               Clients
             </a>
-            <a href="#about" className="block text-2xl font-bold">
-              About
-            </a>
-            <a href="#contact" className="block text-2xl font-bold">
+            <a href="#contact" className="hover-slide-text font-medium">
               Contact
             </a>
           </div>
