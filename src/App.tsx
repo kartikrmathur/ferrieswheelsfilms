@@ -10,7 +10,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Clients from "./components/Clients";
 import Footer from "./components/Footer";
-import Portfolio from "./components/Portfolio";
+// import Portfolio from "./components/Portfolio";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
         <Highlights />
         <Services />
         {/* <Featured /> */}
-        <Portfolio />
+        {/* <Portfolio /> */}
         {/* <Collections /> */}
         <About />
         <Clients />

@@ -43,9 +43,9 @@ export default function Navbar() {
               <a href="#services" className="hover-slide-text font-medium">
                 Services
               </a>
-              <a href="#portfolio" className="hover-slide-text font-medium">
+              {/* <a href="#portfolio" className="hover-slide-text font-medium">
                 Work
-              </a>
+              </a> */}
               <a href="#about" className="hover-slide-text font-medium">
                 About
               </a>
@@ -73,11 +73,20 @@ export default function Navbar() {
       {isOpen && (
         <div className="fixed inset-0 z-40 bg-white pt-16">
           <div className="p-4 space-y-6">
-            <a href="#featured" className="block text-2xl font-bold">
-              Featured
+            <a href="#Highlights" className="hover-slide-text font-medium">
+              Highlights
             </a>
-            <a href="#collections" className="block text-2xl font-bold">
-              Collections
+            <a href="#services" className="hover-slide-text font-medium">
+              Services
+            </a>
+            {/* <a href="#featured" className="block text-2xl font-bold">
+              Featured
+            </a> */}
+            <a href="#about" className="hover-slide-text font-medium">
+              About
+            </a>
+            <a href="#Our Client" className="hover-slide-text font-medium">
+              Clients
             </a>
             <a href="#about" className="block text-2xl font-bold">
               About
