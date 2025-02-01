@@ -73,22 +73,22 @@ export default function Navbar() {
       {isOpen && (
         <div className="fixed inset-0 z-40 bg-white pt-16">
           <div className="p-4 space-y-6">
-            <a href="#Highlights" className="hover-slide-text font-medium">
+            <a href="#Highlights" className="block text-2xl font-bold">
               Highlights
             </a>
-            <a href="#services" className="hover-slide-text font-medium">
+            <a href="#services" className="block text-2xl font-bold">
               Services
             </a>
             {/* <a href="#featured" className="block text-2xl font-bold">
               Featured
             </a> */}
-            <a href="#about" className="hover-slide-text font-medium">
+            <a href="#about" className="block text-2xl font-bold">
               About
             </a>
-            <a href="#Our Client" className="hover-slide-text font-medium">
+            <a href="#Our Client" className="block text-2xl font-bold">
               Clients
             </a>
-            <a href="#contact" className="hover-slide-text font-medium">
+            <a href="#contact" className="block text-2xl font-bold">
               Contact
             </a>
           </div>
