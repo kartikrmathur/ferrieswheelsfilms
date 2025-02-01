@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-white text-black font-sans;
+  }
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 1s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+.hero-clip {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  min-height: 100vh;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px black;
+  color: transparent;
+}
+
+.text-stroke-white {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.hover-slide-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.hover-slide-text::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: translateX(-101%);
+  transition: transform 0.3s ease;
+}
+
+.hover-slide-text:hover::after {
+  transform: translateX(0);
+}
