@@ -7,7 +7,8 @@ export default function Hero() {
       <div
         className="absolute inset-0 w-full h-full bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "url('@/assets/ferrieswheelsfilms_background.png')",
+          backgroundImage:
+            "url('@/assets/images/ferrieswheelsfilms_background.png')",
           filter: "brightness(0.3)",
         }}
       />
