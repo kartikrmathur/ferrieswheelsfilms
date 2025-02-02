@@ -34,6 +34,9 @@ export default function Navbar() {
               <a href="#services" className="hover-slide-text font-medium">
                 Services
               </a>
+              <a href="#portfolio" className="hover-slide-text font-medium">
+                Work
+              </a>
               <a href="#about" className="hover-slide-text font-medium">
                 About
               </a>
@@ -73,6 +76,13 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Services
+            </a>
+            <a
+              href="#portfolio"
+              className="block text-2xl font-bold"
+              onClick={() => setIsOpen(false)}
+            >
+              Work
             </a>
             <a
               href="#about"

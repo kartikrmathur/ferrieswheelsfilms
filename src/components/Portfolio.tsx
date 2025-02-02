@@ -3,68 +3,161 @@ import { Play, X } from "lucide-react";
 
 const portfolioItems = [
   {
-    image:
-      "https://images.unsplash.com/photo-1626814026160-2237a95fc5a0?auto=format&fit=crop&q=80",
+    image: "films/acnestar.jpg",
     title: "Acne Star",
     category: "Commercial",
-    videoUrl: "https://player.vimeo.com/video/588407653",
+    videoUrl:
+      "https://player.vimeo.com/video/588407653?autoplay=1&title=0&byline=0&portrait=0",
     description: "Innovative skincare campaign",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&q=80",
+    image: "films/garnier.jpg",
     title: "Garnier Men's Cream",
     category: "Commercial",
-    videoUrl: "https://player.vimeo.com/video/525052249",
+    videoUrl:
+      "https://player.vimeo.com/video/525052249?autoplay=1&title=0&byline=0&portrait=0",
     description: "Men's grooming product launch",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1585840887185-57cc492587e5?auto=format&fit=crop&q=80",
+    image: "films/baleno.jpg",
     title: "Smartplay Baleno",
     category: "Automotive",
-    videoUrl: "https://player.vimeo.com/video/678043283",
+    videoUrl:
+      "https://player.vimeo.com/video/678043283?autoplay=1&title=0&byline=0&portrait=0",
     description: "Feature showcase campaign",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?auto=format&fit=crop&q=80",
+    image: "films/birla-putty.jpg",
     title: "Birla Putty",
     category: "Corporate",
-    videoUrl: "https://player.vimeo.com/video/525069660",
+    videoUrl:
+      "https://player.vimeo.com/video/525069660?autoplay=1&title=0&byline=0&portrait=0",
     description: "Building materials promotion",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?auto=format&fit=crop&q=80",
+    image: "films/espresso.jpg",
     title: "Espresso Campaign",
     category: "Food & Beverage",
-    videoUrl: "https://player.vimeo.com/video/738242953",
+    videoUrl:
+      "https://player.vimeo.com/video/738242953?autoplay=1&title=0&byline=0&portrait=0",
     description: "Coffee brand storytelling",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1591779051696-1c3fa1469a79?auto=format&fit=crop&q=80",
+    image: "films/smile-foundation.jpg",
     title: "Smile Foundation",
     category: "Non-Profit",
-    videoUrl: "https://player.vimeo.com/video/518905252",
+    videoUrl:
+      "https://player.vimeo.com/video/518905252?autoplay=1&title=0&byline=0&portrait=0",
     description: "Social impact storytelling",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?auto=format&fit=crop&q=80",
+    image: "films/happydent.jpg",
     title: "Happydent",
     category: "Commercial",
-    videoUrl: "https://player.vimeo.com/video/518906208",
+    videoUrl:
+      "https://player.vimeo.com/video/518906208?autoplay=1&title=0&byline=0&portrait=0",
     description: "Innovative product campaign",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&q=80",
+    image: "films/grt-jewellers.jpg",
     title: "GRT Jewellers",
     category: "Luxury",
-    videoUrl: "https://player.vimeo.com/video/525096380",
+    videoUrl:
+      "https://player.vimeo.com/video/525096380?autoplay=1&title=0&byline=0&portrait=0",
     description: "Premium jewelry showcase",
+  },
+  {
+    image: "films/hdfcergo.jpg",
+    title: "HDFCergo",
+    category: "Insurance",
+    videoUrl:
+      "https://player.vimeo.com/video/123456789?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Insurance campaign",
+  },
+  {
+    image: "films/new_age_baleno.jpg",
+    title: "New Age Baleno",
+    category: "Automotive",
+    videoUrl:
+      "https://player.vimeo.com/video/987654321?autoplay=1&title=0&byline=0&portrait=0",
+    description: "New Baleno launch",
+  },
+  {
+    image: "films/epic_new_swift.jpg",
+    title: "Epic New Swift",
+    category: "Automotive",
+    videoUrl:
+      "https://player.vimeo.com/video/112233445?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Swift car campaign",
+  },
+  {
+    image: "films/swift_reveal_ananya.jpg",
+    title: "Swift Reveal",
+    category: "Automotive",
+    videoUrl:
+      "https://player.vimeo.com/video/556677889?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Swift reveal event",
+  },
+  {
+    image: "films/dare_to_shine.jpg",
+    title: "Dare to Shine",
+    category: "Fashion",
+    videoUrl:
+      "https://player.vimeo.com/video/998877665?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Fashion campaign",
+  },
+  {
+    image: "films/realme_narzo.jpg",
+    title: "Realme Narzo",
+    category: "Technology",
+    videoUrl:
+      "https://player.vimeo.com/video/443322110?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Smartphone launch",
+  },
+  {
+    image: "films/red-ramp.jpg",
+    title: "Red Ramp",
+    category: "Project",
+    videoUrl:
+      "https://player.vimeo.com/video/667788990?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Special project",
+  },
+  {
+    image: "films/centrefruit-dusting.jpg",
+    title: "Centrefruit",
+    category: "Food & Beverage",
+    videoUrl:
+      "https://player.vimeo.com/video/334455667?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Cheer Dusting campaign",
+  },
+  {
+    image: "films/dare_to_shine_2.jpg",
+    title: "Dare to Shine 2",
+    category: "Technology",
+    videoUrl:
+      "https://player.vimeo.com/video/223344556?autoplay=1&title=0&byline=0&portrait=0",
+    description: "Realme 11 series",
+  },
+  {
+    image: "films/vivo.jpg",
+    title: "Vivo",
+    category: "Technology",
+    videoUrl: "https://player.vimeo.com/video/998877665",
+    description: "Har Dil Roshan campaign",
+  },
+  {
+    image: "films/centrefruit-clothes.jpg",
+    title: "Centrefruit",
+    category: "Food & Beverage",
+    videoUrl: "https://player.vimeo.com/video/556677889",
+    description: "Washing Clothes campaign",
+  },
+  {
+    image: "films/grt.jpg",
+    title: "GRT",
+    category: "Luxury",
+    videoUrl: "https://player.vimeo.com/video/112233445",
+    description: "Jewelry showcase",
   },
 ];
 
@@ -166,6 +259,7 @@ export default function Portfolio() {
             <iframe
               src={`${selectedVideo}?autoplay=1&title=0&byline=0&portrait=0`}
               className="w-full h-full rounded-lg"
+              frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             />
