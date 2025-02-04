@@ -263,7 +263,7 @@ export default function Portfolio() {
                   : `${selectedVideo}?autoplay=1&title=0&byline=0&portrait=0`
               }
               className="w-full h-full rounded-lg"
-              frameBorder="0"
+              style={{ border: 0 }}
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             />
