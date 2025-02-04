@@ -7,7 +7,7 @@ const portfolioItems = [
     title: "Acne Star",
     category: "Commercial",
     videoUrl:
-      "https://player.vimeo.com/video/588407653?autoplay=1&title=0&byline=0&portrait=0",
+      "https://player.vimeo.com/video/588407653?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;color=ffffff",
     description: "Innovative skincare campaign",
   },
   {
