@@ -22,7 +22,7 @@ export default function Navbar() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <Film className="w-8 h-8" />
-              <a href="Hero" className="text-xl font-bold">
+              <a href="#" className="text-xl font-bold">
                 Ferris Wheels Films
               </a>
             </div>
