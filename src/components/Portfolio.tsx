@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Play, X } from "lucide-react";
 
 const portfolioItems = [
@@ -223,7 +223,7 @@ export default function Portfolio() {
 
                 <button
                   onClick={() => setSelectedVideo(item.videoUrl)}
-                  className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
+                  className={`absolute z-[99999] top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 
                     bg-red-500 text-white rounded-full p-4 transition-all duration-300 ${
                       hoveredItem === index
                         ? "opacity-100 scale-100"
@@ -248,7 +248,7 @@ export default function Portfolio() {
 
       {/* Video Modal */}
       {selectedVideo && (
-        <div className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4">
+        <div className="fixed inset-0 bg-black bg-opacity-90 z-[99999] flex items-center justify-center p-4">
           <div className="relative w-full max-w-6xl mx-auto aspect-video">
             <button
               onClick={() => setSelectedVideo(null)}
@@ -257,7 +257,11 @@ export default function Portfolio() {
               <X className="w-8 h-8" />
             </button>
             <iframe
-              src={`${selectedVideo}?autoplay=1&title=0&byline=0&portrait=0`}
+              src={
+                selectedVideo.includes("?")
+                  ? selectedVideo
+                  : `${selectedVideo}?autoplay=1&title=0&byline=0&portrait=0`
+              }
               className="w-full h-full rounded-lg"
               frameBorder="0"
               allow="autoplay; fullscreen; picture-in-picture"
