@@ -21,7 +21,7 @@ export default function Contact() {
     emailjs
       .send(
         "service_u65dnwo", // Replace with your actual service ID
-        "template_uaadlyx", // Replace with your actual template ID
+        "template_nf17tq5", // Replace with your actual template ID
         formData,
         "uhI9Odz8XhQAZvNUD" // Replace with your actual user ID
       )
