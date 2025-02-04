@@ -249,7 +249,7 @@ export default function Portfolio() {
       {/* Video Modal */}
       {selectedVideo && (
         <div className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4">
-          <div className="relative w-full max-w-6xl mx-auto aspect-video">
+          <div className="relative w-full max-w-6xl mx-auto aspect-video md:aspect-w-16 md:aspect-h-9">
             <button
               onClick={() => setSelectedVideo(null)}
               className="absolute -top-12 right-0 text-white hover:text-red-500 transition-colors duration-300"
@@ -259,7 +259,7 @@ export default function Portfolio() {
             <iframe
               src={`${selectedVideo}?autoplay=1&title=0&byline=0&portrait=0`}
               className="w-full h-full rounded-lg"
-              frameBorder="0"
+              style={{ border: 0 }}
               allow="autoplay; fullscreen; picture-in-picture"
               allowFullScreen
             />
